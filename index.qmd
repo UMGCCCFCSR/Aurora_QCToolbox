@@ -1,0 +1,13 @@
+---
+title: "Getting Started"
+format: html
+---
+
+Hello! This project arises from a talk given at NECyto on November 5, 2026. This can be found [here](). 
+
+To get started, make sure to navigate through the following walk-throughs. 
+
+If you are new to R, and want to start from the beginning, see our free [Cytometry in R]() course. 
+
+Best Wishes-
+David

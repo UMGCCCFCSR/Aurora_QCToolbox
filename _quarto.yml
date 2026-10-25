@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+  render: 
+    - index.qmd
+execute:
+  freeze: auto
+website:
+  google-analytics: "G-LZ35J3XE4D"
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "Under construction, please revisit after our NECyto talk. Thanks!"
+    type: info
+    position: below-navbar 
+  page-navigation: true 
+  title: "Aurora QC Toolbox"
+  navbar:
+    logo: images/hex.svg
+    background: white
+    left:
+      - text: "Home"
+        href: index.qmd    
+    right:
+    - text: Get Help
+      href: https://github.com/UMGCCCFCSR/Aurora_QCToolbox/discussions
+    - icon: youtube
+      href: https://www.youtube.com/@CytometryInR
+      aria-label: YouTube
+    - icon: github
+      href: https://github.com/UMGCCCFCSR/Aurora_QCToolbox
+      aria-label: GitHub
+  sidebar:
+    style: floating
+    collapse-level: 1
+    contents:
+    - section: "Getting Started"
+      contents:
+      - text: "Getting Started"
+        href: index.qmd
+    - section: "Pull the lever"
+      contents:
+      - text: "Turned me into a Llama"
+        href: index.qmd
+  page-footer: 
+   left: Made with [Quarto](https://quarto.org/)
+   right: |
+    ![AGPL-3.0](/images/AGPL3.png)
+    ![CC-BY-SA](/images/CCBYSA.png)
+format:
+  html:
+    css: styles.css
+
